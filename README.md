@@ -7,13 +7,13 @@
 │   ├── obs_pnts.txt       Input file: Synthetic gauges used in the running
 │   └── cases.txt          Input file: Scenarios used in the running
 ├── pgm
-│   ├── run2.py            Main codes
+│   ├── run2.py            Main code
 │   ├── ttsplit.py         Subroutine: Test/Training data splitting
 │   ├── POD.py             Subroutine: Proper orthogonal decomposition
 │   ├── psudo_inv.py       Subroutine: Pseudo inverse 
 │   ├── bayesian_update.py Subroutine: Bayesian update
-│   ├── beautyfun.py       Subroutine: Various data handling functions
-│   └── graphing.py        Subroutine: Graph 
+│   ├── beautyfun.py       Subroutine: Various functions for data handling
+│   └── graphing.py        Subroutine: For graph making
 └── res                    Output directory
 ```
 
