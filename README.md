@@ -2,23 +2,26 @@
 
 ## 
 
-
 ```
-┌── run2.py             メインコードです
-├── ttsplit.py          テストケース（2）と学習ケース（664）を分けるサブルーチンです
-├── POD.py              モード分解(POD)を行っているサブルーチンです
-├── psudo_inv.py        テストケースの係数αを擬似的に求めるサブルーチンです。
-├── particle_filter.py  粒子フィルタによる推定・更新のサブルーチンコードです
-├── beautyfun.py        諸々の関数をまとめた煩雑なサブルーチンです
-└── graphing.py         グラフ描画をコード実行時に並行して行うサブルーチンです。
-
+┌── data
+│   ├── obs_pnts.txt       Input file: Synthetic gauges used in the running
+│   └── cases.txt          Input file: Scenarios used in the running
+├── pgm
+│   ├── run2.py            Main codes
+│   ├── ttsplit.py         Subroutine: Test/Training data splitting
+│   ├── POD.py             Subroutine: Proper orthogonal decomposition
+│   ├── psudo_inv.py       Subroutine: Pseudo inverse 
+│   ├── bayesian_update.py Subroutine: Bayesian update
+│   ├── beautyfun.py       Subroutine: Various data handling functions
+│   └── graphing.py        Subroutine: Graph 
+└── res                    Output directory
 ```
+
 ## Required environment
 
 We confirmed the code can run under the following environment.
 
 - CentOS(Linux) Ver.7
-
 - python 3.8.7 (via pyenv)
   - numpy==1.21.2
   - matplotlib==3.4.3
