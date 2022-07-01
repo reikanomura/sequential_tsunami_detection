@@ -1,6 +1,11 @@
 # sequential_tsunami_detection
 
-## 
+Python codes for the real-time tsunami scenario detection.
+
+- keywords
+  - Bayesian update
+  - Singular Value Docomposition (SVD), Proper Orthogonal Decomposition (POD)
+
 
 ```
 ┌── data
@@ -17,15 +22,21 @@
 └── res                    Output directory
 ```
 
-## Required environment
+## Environment
 
-We confirmed the code can run under the following environment.
-
+We confirmed the code running under the following environment.
 - CentOS(Linux) Ver.7
 - python 3.8.7 (via pyenv)
-  - numpy==1.21.2
-  - matplotlib==3.4.3
-  - scipy==1.7.1
-  - dask==2021.8.1
-  - seaborn==0.11.2
+- TORQUE resource manager
 
+
+## Required python libraries
+
+- numpy==1.21.2
+- matplotlib==3.4.3
+- scipy==1.7.1
+- dask==2021.8.1
+- seaborn==0.11.2
+
+
+## References
