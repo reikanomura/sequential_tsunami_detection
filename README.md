@@ -40,3 +40,6 @@ We confirmed the code running under the following environment.
 
 
 ## References
+
+[![DOI](https://zenodo.org/badge/508964446.svg)](https://zenodo.org/badge/latestdoi/508964446)
+
