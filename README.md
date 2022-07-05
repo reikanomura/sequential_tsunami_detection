@@ -23,8 +23,7 @@ Python codes for the real-time tsunami scenario detection.
 ```
 
 ## Environment
-
-We confirmed the code running under the following environment.
+Tested and confirmed compatible environments
 - CentOS(Linux) Ver.7
 - python 3.8.7 (via pyenv)
 - TORQUE resource manager
