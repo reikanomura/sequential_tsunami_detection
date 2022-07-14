@@ -2,9 +2,7 @@
 
 Python codes for the real-time tsunami scenario detection.
 
-
-![bayesian_update](./movies/bayesian_update.gif)![weighted_wave](./movies/weighted_wave.gif)
-
+<img src="./movies/bayesian_update.gif" height=456px > <img src="./movies/weighted_wave.gif" eight=456px >
 
 - keywords
   - Bayesian update
