@@ -2,6 +2,10 @@
 
 Python codes for the real-time tsunami scenario detection.
 
+
+![bayesian_update](./movies/bayesian_update.gif)![weighted_wave](./movies/weighted_wave.gif)
+
+
 - keywords
   - Bayesian update
   - Singular Value Docomposition (SVD), Proper Orthogonal Decomposition (POD)
