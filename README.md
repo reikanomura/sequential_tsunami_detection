@@ -41,6 +41,10 @@ Tested and confirmed compatible environments
 
 
 ## References
+For detail, please see the following paper.
+Nomura, R., Fujita, S., Galbreath, J. M., Otake, Y., Moriguchi, S., Koshimura, S., et al. (2022). 
+Sequential Bayesian update to detect the most likely tsunami scenario using observational wave sequences. 
+Journal of Geophysical Research: Oceans, 127, e2021JC018324. https://doi.org/10.1029/2021JC018324
 
 [![DOI](https://zenodo.org/badge/508964446.svg)](https://zenodo.org/badge/latestdoi/508964446)
 
